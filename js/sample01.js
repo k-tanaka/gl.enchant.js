@@ -54,8 +54,8 @@ window.onload = function() {
             var input = game.input;
 
             // 十字キーによる回転
-            if (game.input.up)      { phi -= 0.05; }
-            if (game.input.down)    { phi += 0.05; }
+            if (game.input.up)      { phi += 0.05; }
+            if (game.input.down)    { phi -= 0.05; }
             if (game.input.left)    { theta -= 0.05; }
             if (game.input.right)   { theta += 0.05; }
 
